@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Al Haarith Farm | Live Animals & Roasted Fish</title>
+    <link rel="icon" href="images/logo (2).jpeg" type="image/png" />
+
+    <!-- Meta for SEO -->
+    <meta
+      name="description"
+      content="Al Haarith Farm sells healthy live animals, fresh fish, roasted fish and bush meat with fast delivery."
+    />
+
+    <!-- Icons (later we’ll style) -->
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header">
+      <nav class="navbar">
+        <!-- Left: Brand -->
+        <div class="nav-left">
+          <a href="index.html" class="brand">Al Haarith Farm</a>
+        </div>
+
+        <!-- Center: Menu -->
+        <div class="nav-center">
+          <ul class="nav-menu">
+            <li><a href="index.html">Ram</a></li>
+            <li><a href="index.html">Goat</a></li>
+            <li><a href="index.html">Cow</a></li>
+            <li><a href="index.html">Pig</a></li>
+            <li><a href="index.html">Chicken</a></li>
+            <li><a href="rabbit.html">Rabbit</a></li>
+            <li><a href="index.html">Fresh Fish</a></li>
+            <li><a href="index.html">Roasted Fish</a></li>
+            <li><a href="index.html">Roasted Bush Meat</a></li>
+          </ul>
+        </div>
+
+        <!-- Right: WhatsApp CTA -->
+        <div class="nav-right">
+          <a href="#" class="whatsapp-cta">Order on WhatsApp</a>
+        </div>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" aria-label="Menu">☰</button>
+      </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+      <div class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="hero-slide active">
+          <img src="images/hero2.jpeg" alt="Healthy livestock" />
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide">
+          <img src="images/hero.jpeg" alt="Roasted fish" />
+        </div>
+
+        <!-- Slide dots -->
+        <div class="hero-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRODUCT SECTIONS ================= -->
+
+    <!-- ===== RAM SECTION ===== -->
+    <section class="product-section">
+      <div class="section-header">
+        <h2>Available Rams</h2>
+        <p>Healthy, strong and well-fed rams</p>
+        <a href="index.html">View All</a>
+      </div>
+
+      <div class="product-slider">
+        <button class="slider-btn prev">‹</button>
+
+        <div class="product-track">
+          <!-- Ram 1 -->
+          <article class="product-card" data-id="ram-small">
+            <div class="product-image">
+              <img src="images/ram.jpeg" alt="Small Ram" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Small Ram</h3>
+              <p class="price" data-price="120000">₦120,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <!-- Ram 2 -->
+          <article class="product-card" data-id="ram-medium">
+            <div class="product-image">
+              <img src="images/ram.jpeg" alt="Medium Ram" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Medium Ram</h3>
+              <p class="price" data-price="150000">₦150,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <!-- Ram 3 -->
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/ram.jpeg" alt="Large Ram" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large Ram</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <!-- Ram 4 -->
+          <article class="product-card" data-id="ram-extra-large">
+            <div class="product-image">
+              <img src="images/ram.jpeg" alt="Extra Large Ram" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Extra Large Ram</h3>
+              <p class="price" data-price="220000">₦220,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <!-- Ram 5 -->
+          <article class="product-card" data-id="ram-premium">
+            <div class="product-image">
+              <img src="images/ram.jpeg" alt="Premium Ram" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Premium Ram</h3>
+              <p class="price" data-price="260000">₦260,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+        </div>
+
+        <button class="slider-btn next">›</button>
+      </div>
+
+      <div class="slider-dots"></div>
+    </section>
+
+    <!-- ===== ROASTED MEAT & FISH SECTION ===== -->
+    <section class="product-section">
+      <div class="section-header">
+        <h2>Roasted Meat & Fish</h2>
+        <p>Sold per kilogram</p>
+        <a href="index.html">View All</a>
+      </div>
+
+      <div class="product-slider">
+        <button class="slider-btn prev">‹</button>
+
+        <div class="product-track">
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/roasted meat.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Roasted Rabbit</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/roasted meat.jpeg" alt="Roasted Rabbit" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Roasted Rabbit</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/roasted fish.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Roasted Catfish</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/roasted fish.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Roasted Catfish</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/roasted meat.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Roasted Rabbit</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+        </div>
+
+        <button class="slider-btn next">›</button>
+      </div>
+
+      <div class="slider-dots"></div>
+    </section>
+
+    <!-- ===== COW SECTION ===== -->
+    <section class="product-section">
+      <div class="section-header">
+        <h2>Available Cows</h2>
+        <p>Healthy, strong and well-fed cows</p>
+        <a href="index.html">View All</a>
+      </div>
+
+      <div class="product-slider">
+        <button class="slider-btn prev">‹</button>
+
+        <div class="product-track">
+          <!-- Product Card -->
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/cow.jpg" alt="Large cow" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large cow</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/cow.jpg" alt="Large cow" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large cow</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/cow.jpg" alt="Large cow" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large cow</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/cow.jpg" alt="Large cow" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large cow</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/cow.jpg" alt="Large cow" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large cow</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <!-- Duplicate cards as needed -->
+        </div>
+
+        <button class="slider-btn next">›</button>
+      </div>
+
+      <div class="slider-dots"></div>
+    </section>
+
+    <!-- ===== GOAT SECTION ===== -->
+    <section class="product-section">
+      <div class="section-header">
+        <h2>Available Goats</h2>
+        <p>Strong and healthy goats</p>
+        <a href="index.html">View All</a>
+      </div>
+
+      <div class="product-slider">
+        <button class="slider-btn prev">‹</button>
+        <div class="product-track">
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/goat.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large Goat</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/goat.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large Goat</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/goat.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large Goat</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/goat.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Large Goat</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+        </div>
+        <button class="slider-btn next">›</button>
+      </div>
+
+      <div class="slider-dots"></div>
+    </section>
+
+    <!-- ===== FRESH MEAT & FISH SECTION ===== -->
+    <section class="product-section">
+      <div class="section-header">
+        <h2>Fresh Meat & Fish</h2>
+        <p>Sold per kilogram</p>
+        <a href="index.html">View All</a>
+      </div>
+
+      <div class="product-slider">
+        <button class="slider-btn prev">‹</button>
+
+        <div class="product-track">
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/fresh meat.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Fresh Meat</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/fresh meat.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Fresh Meat</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/fresh fish.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Fresh Fish</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/fresh fish.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Fresh Fish</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/fresh meat.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Fresh Meat</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="ram-large">
+            <div class="product-image">
+              <img src="images/fresh meat.jpeg" alt="Roasted Catfish" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Roasted Catfish</h3>
+              <p class="price" data-price="8000">
+                ₦<span class="price-value">8,000</span>
+                <span class="unit">(per kg)</span>
+              </p>
+
+              <label>
+                Quantity (kg):
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+        </div>
+
+        <button class="slider-btn next">›</button>
+      </div>
+
+      <div class="slider-dots"></div>
+    </section>
+
+    <!-- ===== RABBIT SECTION ===== -->
+    <section class="product-section">
+      <div class="section-header">
+        <h2>Available Rabbit</h2>
+        <p>Strong and healthy rabbit</p>
+        <a href="index.html">View All</a>
+      </div>
+
+      <div class="product-slider">
+        <button class="slider-btn prev">‹</button>
+        <div class="product-track">
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/rabbit.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Rabbit</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/rabbit.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Rabbit</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/rabbit.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Rabbit</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-id="cow-large">
+            <div class="product-image">
+              <img src="images/rabbit.jpeg" alt="Large Goat" />
+              <span class="badge stock">In Stock</span>
+            </div>
+
+            <div class="product-info">
+              <h3>Rabbit</h3>
+              <p class="price" data-price="180000">₦180,000</p>
+
+              <label>
+                Quantity:
+                <input type="number" min="1" value="1" />
+              </label>
+
+              <button class="order-btn">Order on WhatsApp</button>
+            </div>
+          </article>
+        </div>
+        <button class="slider-btn next">›</button>
+      </div>
+
+      <div class="slider-dots"></div>
+    </section>
+
+    <!-- ================= ABOUT US ================= -->
+    <section class="about">
+      <div class="about-content">
+        <h2>Why Choose Al Haarith Farm?</h2>
+        <p>
+          We provide healthy livestock, hygienically prepared roasted fish and
+          bush meat, with honest pricing and fast delivery.
+        </p>
+
+        <ul>
+          <li>✔ Healthy & well-raised animals</li>
+          <li>✔ Clean roasting process</li>
+          <li>✔ Fast & reliable delivery</li>
+          <li>✔ Trusted by families & event planners</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= DELIVERY SECTION ================= -->
+    <section class="delivery">
+      <h2>Delivery & Coverage</h2>
+      <p>Same-day or Between 1-3day delivery available.</p>
+      <p>We deliver within major cities and surrounding areas.</p>
+    </section>
+
+    <!-- ================= LOCATION ================= -->
+    <section class="location">
+      <h2>Our Location</h2>
+      <p>Visit or contact us for inspection and pickup.</p>
+
+      <!-- Google Map embed later -->
+      <div class="map-placeholder">Map</div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Al Haarith Farm. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

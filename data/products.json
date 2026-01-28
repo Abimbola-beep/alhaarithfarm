@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "ram-small",
+      "price": 119999,
+      "inStock": true
+    },
+    {
+      "id": "ram-medium",
+      "price": 180000,
+      "inStock": true
+    },
+    {
+      "id": "ram-large",
+      "price": 180000,
+      "inStock": true
+    },
+    {
+      "id": "ram-extra-large",
+      "price": 220000,
+      "inStock": true
+    },
+    {
+      "id": "ram-premium",
+      "price": 260000,
+      "inStock": false
+    }
+  ]
+}

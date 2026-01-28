@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | Al Haarith Farm</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <header class="admin-header">
+      <h1>Al Haarith Farm – Admin</h1>
+      <p>Edit prices & stock (mobile friendly)</p>
+      <button onclick="logoutAdmin()" style="margin-top: 10px">Logout</button>
+    </header>
+
+    <main class="admin-container">
+      <div id="productList"></div>
+
+      <button id="downloadJson" class="save-btn">
+        Download Updated Products JSON
+      </button>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
