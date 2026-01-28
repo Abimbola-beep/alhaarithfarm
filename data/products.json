@@ -2,8 +2,8 @@
   "products": [
     {
       "id": "ram-small",
-      "price": 119999,
-      "inStock": true
+      "price": 42000,
+      "inStock": false
     },
     {
       "id": "ram-medium",
